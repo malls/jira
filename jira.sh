@@ -1,3 +1,5 @@
+#!/bin/bash
+
 for opener in xdg-open open cygstart "start"; {
  	if command -v $opener; then
     	open=$opener;
