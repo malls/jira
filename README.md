@@ -1,4 +1,4 @@
-Browser opener for tickets in Jira. If your branch name matches your ticket name, `jira` in your terminal will open the ticket in your browser.
+Browser opener for tickets in Jira. If your branch name either matches or is prefixed with your ticket name, `jira` in your terminal will open the ticket in your browser.
 
 In your `.zshrc` or whereever, set an environment variable `export JIRA_DOMAIN="whateversubdomain"`.
 
